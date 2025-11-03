@@ -1,0 +1,6 @@
+
+{
+  "name": "Video→SCORM Quiz Generator",
+  "description": "Uno strumento basato su IA per generare automaticamente un pacchetto quiz conforme a SCORM da un file video. L'applicazione trascrive il video, genera obiettivi di apprendimento e una banca di domande, e lo impacchetta in un corso SCORM scaricabile.",
+  "requestFramePermissions": []
+}

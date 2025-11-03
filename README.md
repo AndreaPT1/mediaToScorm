@@ -2,37 +2,32 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Video→SCORM Quiz Generator
+# mediaToScorm - Media to SCORM Conversion Tool
 
-Genera automaticamente quiz interattivi SCORM da video utilizzando l'IA di Google Gemini.
+Automated SCORM package generation from video content with AI-powered interactive quiz creation using Google Gemini.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Vp6BoDNYrKm6GNQIrONIOoxFr4QFl7Un
+## Core Features
 
-## ✨ Nuove Funzionalità UX
+### Theme Customization
+- **Custom Colors**: Configure primary colors with color picker or hex codes
+- **Button Styles**: Select from filled, outline, and gradient variants
+- **Border Radius**: Choose between sharp, medium, and pill-shaped corners
+- **Typography**: System, serif, or monospace fonts with configurable sizing
+- **Theme Presets**: Save and reuse custom theme configurations
 
-L'applicazione è stata potenziata con funzionalità avanzate di personalizzazione e controllo:
+### Quiz Content Management
+- **Selective Question Inclusion**: Choose which questions to include or exclude
+- **Drag-and-Drop Reordering**: Arrange questions by priority and importance
+- **Inline Editing**: Modify question text and learning objectives directly
+- **Advanced Filtering**: Filter by difficulty level and question type
+- **Video Timestamp References**: Link questions to specific video segments
 
-### 🎨 Personalizzazione Tema
-- **Colori personalizzati**: scegli il colore primario con color picker o codice esadecimale
-- **Stili pulsanti**: riempito, contorno o sfumato
-- **Raggio angoli**: squadrato, medio o pill
-- **Tipografia**: system, serif o mono con scala dimensioni
-- **Preset salvabili**: crea e salva temi personalizzati
+### Productivity Features
+- **Progress Tracking**: Multi-step progress bar with section navigation
+- **Auto-Save**: Automatic session persistence
+- **Generation History**: Restore and revisit previous quiz versions
+- **Real-time Notifications**: Immediate feedback on all actions
 
-### ✏️ Controllo Quiz Generati
-- **Selezione domande**: checkbox per includere/escludere domande specifiche
-- **Riordinamento drag & drop**: riordina domande per importanza
-- **Editor in-line**: modifica testi di domande e obiettivi
-- **Filtri avanzati**: filtra per difficoltà e tipo di domanda
-- **Visualizzazione timestamp**: riferimenti al video sorgente
-
-### 💾 Produttività
-- **Barra di avanzamento**: visualizza e naviga tra gli step
-- **Auto-salvataggio**: sessione salvata automaticamente
-- **Cronologia generazioni**: ripristina quiz precedenti
-- **Notifiche toast**: feedback immediato su ogni azione
-
-📖 **Guida completa**: vedi [`docs/guida-rapida-nuove-funzionalita.md`](docs/guida-rapida-nuove-funzionalita.md)
 
 ## 🚀 Run Locally
 
@@ -52,39 +47,39 @@ L'applicazione è stata potenziata con funzionalità avanzate di personalizzazio
 
 4. Open http://localhost:5173 in your browser
 
-## 📋 Workflow
+## Workflow
 
-1. **Upload Video** (📤): Carica il tuo video MP4
-2. **Genera Quiz** (🤖): L'IA analizza il video e genera domande
-   - Seleziona le domande desiderate
-   - Riordina con drag & drop
-   - Modifica testi se necessario
-3. **Pacchetto SCORM** (📦): Configura ed esporta il pacchetto SCORM
+1. **Upload Video**: Import your video content (MP4 format)
+2. **Generate Quiz**: AI analyzes video content and generates questions
+   - Review and select relevant questions
+   - Reorder questions by priority
+   - Edit question text and objectives as needed
+3. **Export SCORM**: Configure and generate SCORM package for LMS deployment
 
-## 🛠️ Tecnologie
+## Technology Stack
 
-- **React 19** + TypeScript
-- **Vite** per build veloce
-- **Tailwind CSS** per styling
-- **Google Gemini AI** per generazione contenuti
-- **SCORM 1.2/2004** per compatibilità LMS
+- **React 19** + TypeScript for robust UI development
+- **Vite** for optimized build performance
+- **Tailwind CSS** for responsive styling
+- **Google Gemini API** for AI-powered content generation
+- **SCORM 1.2/2004** for LMS compatibility
 
-## 📚 Documentazione
+## Documentation
 
-- [`docs/piano-personalizzazione-ux.md`](docs/piano-personalizzazione-ux.md) - Piano originale delle funzionalità
-- [`docs/implementazione-completata.md`](docs/implementazione-completata.md) - Dettagli tecnici implementazione
-- [`docs/guida-rapida-nuove-funzionalita.md`](docs/guida-rapida-nuove-funzionalita.md) - Guida utente
+- [`docs/piano-personalizzazione-ux.md`](docs/piano-personalizzazione-ux.md) - UX customization planning
+- [`docs/implementazione-completata.md`](docs/implementazione-completata.md) - Technical implementation details
+- [`docs/guida-rapida-nuove-funzionalita.md`](docs/guida-rapida-nuove-funzionalita.md) - User guide
 
-## 🎯 Features
+## Features
 
-- ✅ Generazione automatica quiz da video
-- ✅ Supporto trascrizioni audio
-- ✅ Domande multiple-choice, vero/falso, risposta breve
-- ✅ Classificazione difficoltà e livello cognitivo
-- ✅ Export SCORM 1.2 e 2004
-- ✅ Personalizzazione tema completa
-- ✅ Controllo granulare contenuti
-- ✅ Auto-salvataggio e cronologia
+- ✅ Automatic quiz generation from video content
+- ✅ Audio transcription support
+- ✅ Multiple question types (multiple-choice, true/false, short-answer)
+- ✅ Difficulty and cognitive level classification
+- ✅ SCORM 1.2 and 2004 export
+- ✅ Comprehensive theme customization
+- ✅ Fine-grained content control
+- ✅ Auto-save and generation history
 - ✅ Dark mode support
 
 ## 📄 License
